@@ -1,0 +1,12 @@
+<ng-container *ngIf="configuration">
+  <div class="container">
+    <div class="item" *ngFor="let service of configuration.services">
+      <a [href]="service.url" target="_blank">{{ service.title }}</a>
+      <p>{{ service.description }}</p>
+    </div>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="!configuration">
+  <div><p>Loading configuration...</p></div>
+</ng-container>

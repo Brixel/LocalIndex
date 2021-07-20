@@ -1,0 +1,14 @@
+{
+    "services": [
+        {
+            "url": "http://carportdrone:6680/iris",
+            "title": "Audio system Room 1",
+            "description": "Zorg dat de stekker bij de soldeerhoek insteekt"
+        },
+        {
+            "url": "http://192.168.30.100:6680/iris",
+            "title": "Audio system Room 2",
+            "description": "Zorg dat de stekker bij de TV aan staat"
+        }
+    ]
+}
