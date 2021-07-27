@@ -9,6 +9,16 @@
             "url": "http://192.168.30.100:6680/iris",
             "title": "Audio system Room 2",
             "description": "Zorg dat de stekker bij de TV aan staat"
+        },
+        {
+            "url": "http://192.168.20.100:1880",
+            "title": "Node-RED",
+            "description": "Frontend om mqtt en anderen te linken"
+        },
+        {
+            "url": "http://192.168.20.100:8123",
+            "title": "HomeAssistant",
+            "description": "HomeAssistant voor de space"
         }
     ]
 }
